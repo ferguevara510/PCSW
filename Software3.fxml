@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXCheckBox?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="725.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <SplitPane dividerPositions="0.15" layoutX="24.0" layoutY="14.0" orientation="VERTICAL" prefHeight="200.0" prefWidth="160.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0" style="-fx-background-color: #18529D;">
+               <children>
+                  <Text fill="WHITE" layoutX="81.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sistema de Administración del Centro de Cómputo">
+                     <font>
+                        <Font name="Arial" size="25.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0" style="-fx-background-color: #FFF3E0;">
+               <children>
+                  <ImageView fitHeight="50.0" fitWidth="100.0" layoutX="100.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="350.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="640.0" AnchorPane.topAnchor="20.0">
+                     <image>
+                        <Image url="@../Imagenes/UV.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="50.0" fitWidth="100.0" layoutX="523.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="350.0" AnchorPane.leftAnchor="640.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="20.0">
+                     <image>
+                        <Image url="@../Imagenes/FEI.png" />
+                     </image>
+                  </ImageView>
+                  <JFXButton layoutX="85.0" layoutY="361.0" style="-fx-background-color: #28ad56; -fx-background-radius: 15;" text="Volver" textFill="WHITE" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="80.0">
+                     <font>
+                        <Font name="Arial" size="14.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton layoutX="638.0" layoutY="349.0" style="-fx-background-color: #28ad56; -fx-background-radius: 15;" text="Aceptar" textFill="WHITE" AnchorPane.bottomAnchor="50.0" AnchorPane.rightAnchor="80.0">
+                     <font>
+                        <Font name="Arial" size="14.0" />
+                     </font>
+                  </JFXButton>
+                  <Text layoutX="350.0" layoutY="45.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Registro de Software" textAlignment="CENTER" AnchorPane.leftAnchor="270.0" AnchorPane.rightAnchor="270.0" AnchorPane.topAnchor="30.0">
+                     <font>
+                        <Font name="Arial" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="132.0" layoutY="119.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Caracteristicas de Licencia" AnchorPane.leftAnchor="100.0" AnchorPane.topAnchor="100.0" />
+                  <Text layoutX="418.0" layoutY="113.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Observaciones" AnchorPane.leftAnchor="370.0" AnchorPane.topAnchor="100.0" />
+                  <TextArea layoutX="136.0" layoutY="127.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="150.0" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="370.0" AnchorPane.topAnchor="120.0" />
+                  <TextArea layoutX="414.0" layoutY="120.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="150.0" AnchorPane.leftAnchor="370.0" AnchorPane.rightAnchor="100.0" AnchorPane.topAnchor="120.0" />
+                  <JFXCheckBox checkedColor="#28ad56" layoutX="100.0" layoutY="284.0" text="Requerimientos de Actualización" AnchorPane.leftAnchor="100.0" AnchorPane.topAnchor="280.0" />
+                  <JFXCheckBox checkedColor="#28ad56" layoutX="370.0" layoutY="280.0" text="Estado" AnchorPane.leftAnchor="370.0" AnchorPane.topAnchor="280.0" />
+               </children></AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>
